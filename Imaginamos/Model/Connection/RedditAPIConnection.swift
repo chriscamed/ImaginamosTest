@@ -17,7 +17,7 @@ protocol RedditAPIConnectionDelegate: class {
 class RedditAPIConnection {
     
     private let serviceUrl = "https://www.reddit.com/reddits.json"
-    var delegate: RedditAPIConnectionDelegate?
+    weak var delegate: RedditAPIConnectionDelegate?
     
     func fetchData(completion: @escaping (_ data: Any?) -> ()) {
         let internetConnection = Reachability()
