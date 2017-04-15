@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A6CDA9B1E9D2E7300A4215A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CDA9A1E9D2E7300A4215A /* AppDelegate.swift */; };
+		9A6CDAA01E9D2E7300A4215A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CDA9E1E9D2E7300A4215A /* Main.storyboard */; };
+		9A6CDAA21E9D2E7300A4215A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CDAA11E9D2E7300A4215A /* Assets.xcassets */; };
+		9A6CDAA51E9D2E7300A4215A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CDAA31E9D2E7300A4215A /* LaunchScreen.storyboard */; };
+		9A7EBC311EA03FB4000C12E5 /* apps_bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A7EBC301EA03FB4000C12E5 /* apps_bk.jpg */; };
+		9A7EBC331EA04017000C12E5 /* AppsListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7EBC321EA04017000C12E5 /* AppsListCollectionCell.swift */; };
+		9A7EBC351EA0408F000C12E5 /* AppsListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7EBC341EA0408F000C12E5 /* AppsListTableCell.swift */; };
+		9ABEA3231E9EA6DC001F29E8 /* RedditAPIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3221E9EA6DC001F29E8 /* RedditAPIConnection.swift */; };
+		9ABEA3261E9EAAAB001F29E8 /* RedditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3251E9EAAAB001F29E8 /* RedditPost.swift */; };
+		9ABEA3291E9EE10A001F29E8 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3281E9EE10A001F29E8 /* CoreDataController.swift */; };
+		9ABEA32B1E9EE1C5001F29E8 /* IMRedditPostMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA32A1E9EE1C5001F29E8 /* IMRedditPostMO.swift */; };
+		9ABEA32E1E9EE49A001F29E8 /* Imaginamos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA32C1E9EE49A001F29E8 /* Imaginamos.xcdatamodeld */; };
+		9ABEA3351E9EFD50001F29E8 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3331E9EFD50001F29E8 /* CategoriesViewController.swift */; };
+		9ABEA33A1E9EFDA0001F29E8 /* CategoriesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3391E9EFDA0001F29E8 /* CategoriesTableCell.swift */; };
+		9ABEA33C1E9EFDBE001F29E8 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA33B1E9EFDBE001F29E8 /* CategoriesCollectionViewCell.swift */; };
+		9ABEA33E1E9EFEEC001F29E8 /* AppsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA33D1E9EFEEC001F29E8 /* AppsListViewController.swift */; };
+		9ABEA3411E9EFF8F001F29E8 /* GroupedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3401E9EFF8F001F29E8 /* GroupedLists.swift */; };
+		9ABEA3431E9F0E34001F29E8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3421E9F0E34001F29E8 /* Color.swift */; };
+		9ABEA3451E9F0E46001F29E8 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEA3441E9F0E46001F29E8 /* Float.swift */; };
+		9ABEA3481E9F110D001F29E8 /* main-img-home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEA3471E9F110D001F29E8 /* main-img-home.jpg */; };
+		9AC250081EA12CB70053C7DB /* default-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC250071EA12CB70053C7DB /* default-placeholder.png */; };
+		9AC2500B1EA1386D0053C7DB /* logo-imaginamos-azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC250091EA1386D0053C7DB /* logo-imaginamos-azul.png */; };
+		9AC2500C1EA1386D0053C7DB /* weft-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2500A1EA1386D0053C7DB /* weft-blue.png */; };
+		9AC2500E1EA144CE0053C7DB /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2500D1EA144CE0053C7DB /* AppDetailViewController.swift */; };
+		9AC250101EA146D00053C7DB /* abstract-background-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2500F1EA146D00053C7DB /* abstract-background-6.jpg */; };
+		9AC250131EA182AE0053C7DB /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC250121EA182AE0053C7DB /* FlipPresentAnimationController.swift */; };
+		9AC250151EA185170053C7DB /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC250141EA185170053C7DB /* AnimationHelper.swift */; };
+		9AC250171EA189FC0053C7DB /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC250161EA189FC0053C7DB /* SwipeInteractionController.swift */; };
+		9AC250191EA18B220053C7DB /* FlipDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC250181EA18B220053C7DB /* FlipDismissAnimationController.swift */; };
+		9ADE2F661EA05F0A00E2A553 /* AppsListCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE2F651EA05F0A00E2A553 /* AppsListCollectionCell.xib */; };
+		B733691CED914E6C5BD8314B /* Pods_Imaginamos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887344D35643D7660B354589 /* Pods_Imaginamos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		576748579A2161B5BE78F937 /* Pods-Imaginamos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imaginamos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Imaginamos/Pods-Imaginamos.debug.xcconfig"; sourceTree = "<group>"; };
+		887344D35643D7660B354589 /* Pods_Imaginamos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Imaginamos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6CDA971E9D2E7300A4215A /* Imaginamos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaginamos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6CDA9A1E9D2E7300A4215A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A6CDA9F1E9D2E7300A4215A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A6CDAA11E9D2E7300A4215A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A6CDAA41E9D2E7300A4215A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A6CDAA61E9D2E7300A4215A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7EBC301EA03FB4000C12E5 /* apps_bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apps_bk.jpg; sourceTree = "<group>"; };
+		9A7EBC321EA04017000C12E5 /* AppsListCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsListCollectionCell.swift; sourceTree = "<group>"; };
+		9A7EBC341EA0408F000C12E5 /* AppsListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsListTableCell.swift; sourceTree = "<group>"; };
+		9ABEA3221E9EA6DC001F29E8 /* RedditAPIConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditAPIConnection.swift; sourceTree = "<group>"; };
+		9ABEA3251E9EAAAB001F29E8 /* RedditPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditPost.swift; sourceTree = "<group>"; };
+		9ABEA3281E9EE10A001F29E8 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		9ABEA32A1E9EE1C5001F29E8 /* IMRedditPostMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRedditPostMO.swift; sourceTree = "<group>"; };
+		9ABEA32D1E9EE49A001F29E8 /* Imaginamos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Imaginamos.xcdatamodel; sourceTree = "<group>"; };
+		9ABEA3331E9EFD50001F29E8 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		9ABEA3391E9EFDA0001F29E8 /* CategoriesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableCell.swift; sourceTree = "<group>"; };
+		9ABEA33B1E9EFDBE001F29E8 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		9ABEA33D1E9EFEEC001F29E8 /* AppsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsListViewController.swift; sourceTree = "<group>"; };
+		9ABEA3401E9EFF8F001F29E8 /* GroupedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedLists.swift; sourceTree = "<group>"; };
+		9ABEA3421E9F0E34001F29E8 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9ABEA3441E9F0E46001F29E8 /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
+		9ABEA3471E9F110D001F29E8 /* main-img-home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "main-img-home.jpg"; sourceTree = "<group>"; };
+		9AC250071EA12CB70053C7DB /* default-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-placeholder.png"; sourceTree = "<group>"; };
+		9AC250091EA1386D0053C7DB /* logo-imaginamos-azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-imaginamos-azul.png"; sourceTree = "<group>"; };
+		9AC2500A1EA1386D0053C7DB /* weft-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weft-blue.png"; sourceTree = "<group>"; };
+		9AC2500D1EA144CE0053C7DB /* AppDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
+		9AC2500F1EA146D00053C7DB /* abstract-background-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abstract-background-6.jpg"; sourceTree = "<group>"; };
+		9AC250121EA182AE0053C7DB /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
+		9AC250141EA185170053C7DB /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		9AC250161EA189FC0053C7DB /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
+		9AC250181EA18B220053C7DB /* FlipDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipDismissAnimationController.swift; sourceTree = "<group>"; };
+		9ADE2F651EA05F0A00E2A553 /* AppsListCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppsListCollectionCell.xib; sourceTree = "<group>"; };
+		B419B47A7EACC370E50451A1 /* Pods-Imaginamos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imaginamos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Imaginamos/Pods-Imaginamos.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A6CDA941E9D2E7300A4215A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B733691CED914E6C5BD8314B /* Pods_Imaginamos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A6CDA8E1E9D2E7300A4215A = {
+			isa = PBXGroup;
+			children = (
+				9A6CDA991E9D2E7300A4215A /* Imaginamos */,
+				9A6CDAAC1E9D368000A4215A /* Supporting Files */,
+				9A6CDA981E9D2E7300A4215A /* Products */,
+				BD42F5BBAF83C28333E2B1E9 /* Pods */,
+				ACE5E4FB1B45EC55658E2FAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A6CDA981E9D2E7300A4215A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6CDA971E9D2E7300A4215A /* Imaginamos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A6CDA991E9D2E7300A4215A /* Imaginamos */ = {
+			isa = PBXGroup;
+			children = (
+				9A6CDAAD1E9D36C700A4215A /* Controller */,
+				9A6CDAAE1E9D36C700A4215A /* Model */,
+				9A6CDAAF1E9D36C700A4215A /* View */,
+			);
+			path = Imaginamos;
+			sourceTree = "<group>";
+		};
+		9A6CDAAC1E9D368000A4215A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3461E9F10EE001F29E8 /* Images */,
+				9ABEA33F1E9EFF39001F29E8 /* Extensions */,
+				9A6CDA9A1E9D2E7300A4215A /* AppDelegate.swift */,
+				9A6CDA9E1E9D2E7300A4215A /* Main.storyboard */,
+				9A6CDAA11E9D2E7300A4215A /* Assets.xcassets */,
+				9A6CDAA31E9D2E7300A4215A /* LaunchScreen.storyboard */,
+				9A6CDAA61E9D2E7300A4215A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = Imaginamos;
+			sourceTree = "<group>";
+		};
+		9A6CDAAD1E9D36C700A4215A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3361E9EFD6E001F29E8 /* Cells */,
+				9ABEA3311E9EFD50001F29E8 /* ViewControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A6CDAAE1E9D36C700A4215A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AC250111EA182990053C7DB /* AnimationsControllers */,
+				9ABEA3271E9EE0D7001F29E8 /* CoreData */,
+				9ABEA3241E9EA944001F29E8 /* BindObjects */,
+				9ABEA3211E9EA6DC001F29E8 /* Connection */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A6CDAAF1E9D36C700A4215A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE2F641EA05EFB00E2A553 /* CollectionCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9ABEA3211E9EA6DC001F29E8 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3221E9EA6DC001F29E8 /* RedditAPIConnection.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		9ABEA3241E9EA944001F29E8 /* BindObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3251E9EAAAB001F29E8 /* RedditPost.swift */,
+			);
+			path = BindObjects;
+			sourceTree = "<group>";
+		};
+		9ABEA3271E9EE0D7001F29E8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3281E9EE10A001F29E8 /* CoreDataController.swift */,
+				9ABEA32A1E9EE1C5001F29E8 /* IMRedditPostMO.swift */,
+				9ABEA32C1E9EE49A001F29E8 /* Imaginamos.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9ABEA3311E9EFD50001F29E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3331E9EFD50001F29E8 /* CategoriesViewController.swift */,
+				9ABEA33D1E9EFEEC001F29E8 /* AppsListViewController.swift */,
+				9AC2500D1EA144CE0053C7DB /* AppDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9ABEA3361E9EFD6E001F29E8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3391E9EFDA0001F29E8 /* CategoriesTableCell.swift */,
+				9ABEA33B1E9EFDBE001F29E8 /* CategoriesCollectionViewCell.swift */,
+				9A7EBC321EA04017000C12E5 /* AppsListCollectionCell.swift */,
+				9A7EBC341EA0408F000C12E5 /* AppsListTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9ABEA33F1E9EFF39001F29E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEA3401E9EFF8F001F29E8 /* GroupedLists.swift */,
+				9ABEA3421E9F0E34001F29E8 /* Color.swift */,
+				9ABEA3441E9F0E46001F29E8 /* Float.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9ABEA3461E9F10EE001F29E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2500F1EA146D00053C7DB /* abstract-background-6.jpg */,
+				9AC250091EA1386D0053C7DB /* logo-imaginamos-azul.png */,
+				9AC2500A1EA1386D0053C7DB /* weft-blue.png */,
+				9AC250071EA12CB70053C7DB /* default-placeholder.png */,
+				9A7EBC301EA03FB4000C12E5 /* apps_bk.jpg */,
+				9ABEA3471E9F110D001F29E8 /* main-img-home.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9AC250111EA182990053C7DB /* AnimationsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AC250121EA182AE0053C7DB /* FlipPresentAnimationController.swift */,
+				9AC250141EA185170053C7DB /* AnimationHelper.swift */,
+				9AC250161EA189FC0053C7DB /* SwipeInteractionController.swift */,
+				9AC250181EA18B220053C7DB /* FlipDismissAnimationController.swift */,
+			);
+			path = AnimationsControllers;
+			sourceTree = "<group>";
+		};
+		9ADE2F641EA05EFB00E2A553 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE2F651EA05F0A00E2A553 /* AppsListCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		ACE5E4FB1B45EC55658E2FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				887344D35643D7660B354589 /* Pods_Imaginamos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD42F5BBAF83C28333E2B1E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				576748579A2161B5BE78F937 /* Pods-Imaginamos.debug.xcconfig */,
+				B419B47A7EACC370E50451A1 /* Pods-Imaginamos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A6CDA961E9D2E7300A4215A /* Imaginamos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6CDAA91E9D2E7300A4215A /* Build configuration list for PBXNativeTarget "Imaginamos" */;
+			buildPhases = (
+				E61E0A5E85AE5EF56517FC6F /* [CP] Check Pods Manifest.lock */,
+				9A6CDA931E9D2E7300A4215A /* Sources */,
+				9A6CDA941E9D2E7300A4215A /* Frameworks */,
+				9A6CDA951E9D2E7300A4215A /* Resources */,
+				97B8CD96CAA465A4D3E25D5A /* [CP] Embed Pods Frameworks */,
+				6CEC248C2F2CB15FCEE3BD54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imaginamos;
+			productName = Imaginamos;
+			productReference = 9A6CDA971E9D2E7300A4215A /* Imaginamos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A6CDA8F1E9D2E7300A4215A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Imaginamos;
+				TargetAttributes = {
+					9A6CDA961E9D2E7300A4215A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 383M5WJD2Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A6CDA921E9D2E7300A4215A /* Build configuration list for PBXProject "Imaginamos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A6CDA8E1E9D2E7300A4215A;
+			productRefGroup = 9A6CDA981E9D2E7300A4215A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A6CDA961E9D2E7300A4215A /* Imaginamos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A6CDA951E9D2E7300A4215A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC250101EA146D00053C7DB /* abstract-background-6.jpg in Resources */,
+				9AC250081EA12CB70053C7DB /* default-placeholder.png in Resources */,
+				9A6CDAA51E9D2E7300A4215A /* LaunchScreen.storyboard in Resources */,
+				9ABEA3481E9F110D001F29E8 /* main-img-home.jpg in Resources */,
+				9A6CDAA21E9D2E7300A4215A /* Assets.xcassets in Resources */,
+				9ADE2F661EA05F0A00E2A553 /* AppsListCollectionCell.xib in Resources */,
+				9A6CDAA01E9D2E7300A4215A /* Main.storyboard in Resources */,
+				9A7EBC311EA03FB4000C12E5 /* apps_bk.jpg in Resources */,
+				9AC2500B1EA1386D0053C7DB /* logo-imaginamos-azul.png in Resources */,
+				9AC2500C1EA1386D0053C7DB /* weft-blue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CEC248C2F2CB15FCEE3BD54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Imaginamos/Pods-Imaginamos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B8CD96CAA465A4D3E25D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Imaginamos/Pods-Imaginamos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61E0A5E85AE5EF56517FC6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A6CDA931E9D2E7300A4215A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABEA33A1E9EFDA0001F29E8 /* CategoriesTableCell.swift in Sources */,
+				9A7EBC331EA04017000C12E5 /* AppsListCollectionCell.swift in Sources */,
+				9ABEA3411E9EFF8F001F29E8 /* GroupedLists.swift in Sources */,
+				9ABEA3291E9EE10A001F29E8 /* CoreDataController.swift in Sources */,
+				9ABEA3431E9F0E34001F29E8 /* Color.swift in Sources */,
+				9ABEA32E1E9EE49A001F29E8 /* Imaginamos.xcdatamodeld in Sources */,
+				9AC250171EA189FC0053C7DB /* SwipeInteractionController.swift in Sources */,
+				9ABEA3261E9EAAAB001F29E8 /* RedditPost.swift in Sources */,
+				9A6CDA9B1E9D2E7300A4215A /* AppDelegate.swift in Sources */,
+				9ABEA33E1E9EFEEC001F29E8 /* AppsListViewController.swift in Sources */,
+				9AC250191EA18B220053C7DB /* FlipDismissAnimationController.swift in Sources */,
+				9A7EBC351EA0408F000C12E5 /* AppsListTableCell.swift in Sources */,
+				9AC250131EA182AE0053C7DB /* FlipPresentAnimationController.swift in Sources */,
+				9ABEA32B1E9EE1C5001F29E8 /* IMRedditPostMO.swift in Sources */,
+				9ABEA3451E9F0E46001F29E8 /* Float.swift in Sources */,
+				9AC2500E1EA144CE0053C7DB /* AppDetailViewController.swift in Sources */,
+				9AC250151EA185170053C7DB /* AnimationHelper.swift in Sources */,
+				9ABEA3231E9EA6DC001F29E8 /* RedditAPIConnection.swift in Sources */,
+				9ABEA3351E9EFD50001F29E8 /* CategoriesViewController.swift in Sources */,
+				9ABEA33C1E9EFDBE001F29E8 /* CategoriesCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A6CDA9E1E9D2E7300A4215A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6CDA9F1E9D2E7300A4215A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A6CDAA31E9D2E7300A4215A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6CDAA41E9D2E7300A4215A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A6CDAA71E9D2E7300A4215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A6CDAA81E9D2E7300A4215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A6CDAAA1E9D2E7300A4215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576748579A2161B5BE78F937 /* Pods-Imaginamos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 383M5WJD2Z;
+				INFOPLIST_FILE = Imaginamos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaginamos.ImaginamosTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A6CDAAB1E9D2E7300A4215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B419B47A7EACC370E50451A1 /* Pods-Imaginamos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 383M5WJD2Z;
+				INFOPLIST_FILE = Imaginamos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaginamos.ImaginamosTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A6CDA921E9D2E7300A4215A /* Build configuration list for PBXProject "Imaginamos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6CDAA71E9D2E7300A4215A /* Debug */,
+				9A6CDAA81E9D2E7300A4215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6CDAA91E9D2E7300A4215A /* Build configuration list for PBXNativeTarget "Imaginamos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6CDAAA1E9D2E7300A4215A /* Debug */,
+				9A6CDAAB1E9D2E7300A4215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ABEA32C1E9EE49A001F29E8 /* Imaginamos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ABEA32D1E9EE49A001F29E8 /* Imaginamos.xcdatamodel */,
+			);
+			currentVersion = 9ABEA32D1E9EE49A001F29E8 /* Imaginamos.xcdatamodel */;
+			path = Imaginamos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A6CDA8F1E9D2E7300A4215A /* Project object */;
+}

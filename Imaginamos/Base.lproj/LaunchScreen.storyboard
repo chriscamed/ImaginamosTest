@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weft-blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="AvU-PD-eVB">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1z-cU-Z4L">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="BVi-7s-fgm">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-imaginamos-azul.png" translatesAutoresizingMaskIntoConstraints="NO" id="j5w-u0-eHe">
+                                <rect key="frame" x="351.5" y="358.5" width="321" height="51"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AvU-PD-eVB" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8NN-1O-lnN"/>
+                            <constraint firstItem="AvU-PD-eVB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="I0v-nJ-zWL"/>
+                            <constraint firstAttribute="trailing" secondItem="M1z-cU-Z4L" secondAttribute="trailing" id="T6J-O4-8e8"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="M1z-cU-Z4L" secondAttribute="bottom" id="UB6-bU-i8m"/>
+                            <constraint firstItem="j5w-u0-eHe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hd0-yp-AuD"/>
+                            <constraint firstAttribute="trailing" secondItem="AvU-PD-eVB" secondAttribute="trailing" id="ifa-CO-CjL"/>
+                            <constraint firstItem="j5w-u0-eHe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mVt-sW-Otr"/>
+                            <constraint firstItem="M1z-cU-Z4L" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="sCK-h7-LSg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="AvU-PD-eVB" secondAttribute="bottom" id="tOY-bR-oeA"/>
+                            <constraint firstItem="M1z-cU-Z4L" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="zTj-Ua-pQP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-imaginamos-azul.png" width="321" height="51"/>
+        <image name="weft-blue.png" width="1300" height="650"/>
+    </resources>
+</document>
